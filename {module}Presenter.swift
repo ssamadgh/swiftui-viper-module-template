@@ -25,7 +25,7 @@ extension {module}Presenter: {module}PresenterInteractorInterface {
 
 extension {module}Presenter: {module}PresenterViewInterface {
 
-    func start() {
+    func viewDidLoad() {
 
     }
 

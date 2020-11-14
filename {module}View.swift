@@ -16,7 +16,7 @@ final class {module}View: UIViewController, ViewInterface {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.presenter.start()
+        self.presenter.viewDidLoad()
     }
 
 }
