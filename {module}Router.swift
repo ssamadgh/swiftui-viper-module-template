@@ -15,6 +15,6 @@ final class {module}Router: RouterInterface {
     weak var viewController: UIViewController?
 }
 
-extension {module}Router: {module}RouterPresenterInterface {
+extension {module}Router: {module}RouterInterface {
 
 }

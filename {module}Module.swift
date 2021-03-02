@@ -9,7 +9,7 @@ import UIKit
 
 // MARK: - router
 
-protocol {module}RouterPresenterInterface: RouterPresenterInterface {
+protocol {module}RouterInterface: RouterPresenterInterface {
 
 }
 
@@ -29,13 +29,13 @@ protocol {module}PresenterViewInterface: PresenterViewInterface {
 
 // MARK: - interactor
 
-protocol {module}InteractorPresenterInterface: InteractorPresenterInterface {
+protocol {module}InteractorInterface: InteractorPresenterInterface {
 
 }
 
 // MARK: - view
 
-protocol {module}ViewPresenterInterface: ViewPresenterInterface {
+protocol {module}ViewInterface: ViewPresenterInterface {
 
 }
 

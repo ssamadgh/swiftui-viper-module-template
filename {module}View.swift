@@ -21,6 +21,6 @@ final class {module}View: UIViewController, ViewInterface {
 
 }
 
-extension {module}View: {module}ViewPresenterInterface {
+extension {module}View: {module}ViewInterface {
 
 }

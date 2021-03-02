@@ -12,6 +12,6 @@ final class {module}Interactor: InteractorInterface {
     weak var presenter: {module}PresenterInteractorInterface!
 }
 
-extension {module}Interactor: {module}InteractorPresenterInterface {
+extension {module}Interactor: {module}InteractorInterface {
 
 }

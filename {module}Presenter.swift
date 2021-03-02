@@ -9,9 +9,9 @@ import Foundation
 
 final class {module}Presenter: PresenterInterface {
 
-    var router: {module}RouterPresenterInterface!
-    var interactor: {module}InteractorPresenterInterface!
-    weak var view: {module}ViewPresenterInterface!
+    var router: {module}RouterInterface!
+    var interactor: {module}InteractorInterface!
+    weak var view: {module}ViewInterface!
 
 }
 
