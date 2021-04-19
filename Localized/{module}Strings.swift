@@ -1,5 +1,5 @@
 //
-//  {module}Module.swift
+//  {module}Strings.swift
 //  {project}
 //
 //  Created by {author} on {date}.

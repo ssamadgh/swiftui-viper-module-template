@@ -15,6 +15,8 @@ final class {module}View: UIViewController, ViewInterface {
 	// MARK: - Properties
 	
 	
+	// MARK: - Initialize
+
 	
 	// MARK: - Lifecycle
 	
