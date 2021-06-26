@@ -1,5 +1,5 @@
 //
-//  {module}Entity.swift
+//  {Name}Entity.swift
 //  {project}
 //
 //  Created by {author} on {date}.

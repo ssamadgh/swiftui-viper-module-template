@@ -1,5 +1,5 @@
 //
-//  {module}View.swift
+//  {Name}View.swift
 //  {project}
 //
 //  Created by {author} on {date}.
@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-final class {module}View: UIViewController, ViewInterface {
+final class {Name}View: UIViewController, ViewInterface {
 	
-	var presenter: {module}PresenterViewInterface!
+	var presenter: {Name}PresenterViewInterface!
 	
 	// MARK: - Properties
 	
@@ -40,6 +40,6 @@ final class {module}View: UIViewController, ViewInterface {
 	
 }
 
-extension {module}View: {module}ViewInterface {
+extension {Name}View: {Name}ViewInterface {
 	
 }
