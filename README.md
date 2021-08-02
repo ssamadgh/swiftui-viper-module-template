@@ -34,7 +34,7 @@ swift template update
 
 ## Usage
 
-Add ```SwiftUIInterfaces.swift``` file at top of your project folder.
+Add ```SwiftUIInterfaces.swift``` file at top of your project folder in Xcode.
 
 Then you can generate a new module with the following command:
 
