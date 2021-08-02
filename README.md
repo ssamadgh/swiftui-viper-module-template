@@ -1,6 +1,6 @@
-# Viper module template (🐍)
+# SwiftUI Viper module template (🐍)
 
-Swift template for iOS projects using the [VIPER](https://github.com/CoreKit/VIPER) library.
+SwiftUI template for iOS projects using the [VIPER](https://github.com/CoreKit/VIPER) library.
 
 ## Dependencies
 
