@@ -1,6 +1,6 @@
 # SwiftUI Viper module template (🦕)
 
-SwiftUI template for iOS projects using the [VIPER](https://github.com/CoreKit/VIPER) library.
+SwiftUI template for iOS projects.
 
 ## Dependencies
 
@@ -17,6 +17,7 @@ make install
 ```
 
 Install a new template using a git repository:
+
 ``` 
 swift template install <git-url-of-the-template> [-g]
 
@@ -33,11 +34,14 @@ swift template update
 
 ## Usage
 
-You can generate a new module with the following command:
+Add ```SwiftUIInterfaces.swift``` file at top of your project folder.
+
+Then you can generate a new module with the following command:
 
 ```shell
 swift template generate <name> -u viper-module [-o <location>]
 ```
+Add the generated module into your project below ```SwiftUIInterfaces.swift``` file.
 
 That's it.
 
