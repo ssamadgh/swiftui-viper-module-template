@@ -6,13 +6,12 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
 final class {Name}Router: RouterInterface {
 
     weak var presenter: {Name}PresenterRouterInterface!
 
-    weak var viewController: UIViewController?
 }
 
 extension {Name}Router: {Name}RouterInterface {

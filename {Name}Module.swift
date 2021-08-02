@@ -6,6 +6,8 @@
 //
 import Foundation
 import UIKit
+import SwiftUI
+
 
 // MARK: - router
 
@@ -24,7 +26,7 @@ protocol {Name}PresenterInteractorInterface: PresenterInteractorInterface {
 }
 
 protocol {Name}PresenterViewInterface: PresenterViewInterface {
-    func viewDidLoad()
+    func onViewAppear()
 }
 
 // MARK: - interactor
@@ -44,21 +46,20 @@ protocol {Name}ViewInterface: ViewPresenterInterface {
 
 final class {Name}Module: ModuleInterface {
 
-    typealias View = {Name}View
-    typealias Presenter = {Name}Presenter
+    typealias View = {Name}View<Presenter>
+    typealias Presenter = {Name}Presenter<Router>
     typealias Router = {Name}Router
     typealias Interactor = {Name}Interactor
 
-    func build() -> UIViewController {
-        let view = View()
+    func build() -> some SwiftUI.View {
+        let router = Router()
         let interactor = Interactor()
         let presenter = Presenter()
-        let router = Router()
-
-        self.assemble(view: view, presenter: presenter, router: router, interactor: interactor)
-
-        router.viewController = view
-
+        
+        self.assemble(presenter: presenter, router: router, interactor: interactor)
+        
+        let view = View(presenter: presenter)
+        
         return view
     }
 }

@@ -6,12 +6,21 @@
 //
 
 import Foundation
+import SwiftUI
+import Combine
 
-final class {Name}Presenter: PresenterInterface {
+final class {Name}Presenter<Router: {Name}RouterInterface>: PresenterInterface {
 
-    var router: {Name}RouterInterface!
+    var router: Router!
     var interactor: {Name}InteractorInterface!
-    weak var view: {Name}ViewInterface!
+
+}
+
+extension {Name}Presenter: {Name}PresenterViewInterface {
+
+    func onViewAppear() {
+
+    }
 
 }
 
@@ -23,10 +32,3 @@ extension {Name}Presenter: {Name}PresenterInteractorInterface {
 
 }
 
-extension {Name}Presenter: {Name}PresenterViewInterface {
-
-    func viewDidLoad() {
-
-    }
-
-}

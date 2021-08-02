@@ -5,41 +5,27 @@
 //  Created by {author} on {date}.
 //
 
-import Foundation
-import UIKit
+import SwiftUI
 
-final class {Name}View: UIViewController, ViewInterface {
+final struct {Name}View<Presenter: {Name}PresenterViewInterface>: View, ViewInterface {
 	
-	var presenter: {Name}PresenterViewInterface!
+    @ObservedObject var presenter: Presenter
 	
-	// MARK: - Properties
-	
-	
-	// MARK: - Initialize
-
-	
-	// MARK: - Lifecycle
-	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		
-		self.applyTheme()
-		self.presenter.viewDidLoad()
-	}
-	
-	
-	// MARK: - Theme
-	
-	func applyTheme() {
-		
-	}
-	
-	
-	// MARK: - Actions
-	
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            .onAppear(perform: presenter.onViewAppear)
+    }
 	
 }
 
 extension {Name}View: {Name}ViewInterface {
 	
+}
+
+struct {Name}View_Previews: PreviewProvider {
+    static var previews: some View {
+        return NavigationView {
+            {Name}Module().build()
+        }
+    }
 }
