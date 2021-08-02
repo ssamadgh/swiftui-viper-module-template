@@ -1,4 +1,4 @@
-# SwiftUI Viper module template (🐍)
+# SwiftUI Viper module template (🦕)
 
 SwiftUI template for iOS projects using the [VIPER](https://github.com/CoreKit/VIPER) library.
 
