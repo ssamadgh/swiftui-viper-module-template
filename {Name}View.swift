@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final struct {Name}View<Presenter: {Name}PresenterViewInterface>: View, ViewInterface {
+struct {Name}View<Presenter: {Name}PresenterViewInterface>: View, ViewInterface {
 	
     @ObservedObject var presenter: Presenter
 	
