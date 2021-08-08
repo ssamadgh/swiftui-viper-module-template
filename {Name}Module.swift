@@ -62,4 +62,8 @@ final class {Name}Module: ModuleInterface {
         
         return view
     }
+    
+    func buildPreview() -> some SwiftUI.View {
+        build()
+    }
 }

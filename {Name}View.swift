@@ -25,7 +25,7 @@ extension {Name}View: {Name}ViewInterface {
 struct {Name}View_Previews: PreviewProvider {
     static var previews: some View {
         return NavigationView {
-            {Name}Module().build()
+            {Name}Module().buildPreview()
         }
     }
 }
