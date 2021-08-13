@@ -14,6 +14,8 @@ final class {Name}Presenter<Router: {Name}RouterInterface>: PresenterInterface {
     var router: Router!
     var interactor: {Name}InteractorInterface!
 
+    var cancellables = Set<AnyCancellable>()
+    
 }
 
 extension {Name}Presenter: {Name}PresenterViewInterface {
