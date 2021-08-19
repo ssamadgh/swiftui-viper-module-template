@@ -5,6 +5,7 @@
 //  Created by {author} on {date}.
 //
 import Foundation
+import SwiftUI
 
 public struct {Name}Strings {
 
