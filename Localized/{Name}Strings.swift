@@ -12,6 +12,10 @@ public struct {Name}Strings {
 
 public extension {Name}Strings {
 	static func localized(_ key: String, _ comment: String?) -> String {
-		return NSLocalizedString(key, tableName: "{Name}Localized", bundle: .main, value: key, comment: comment ?? "")
+		NSLocalizedString(key, tableName: "{Name}Localized", comment: comment ?? "")
 	}
+
+    static func localized(_ key: LocalizedStringKey, _ comment: StaticString?) -> Text {
+        Text(key, tableName: "{Name}Localized", comment: comment)
+    }
 }
