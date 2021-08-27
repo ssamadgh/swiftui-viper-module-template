@@ -20,10 +20,6 @@ final class {Name}Presenter<Router: {Name}RouterInterface>: PresenterInterface {
 
 extension {Name}Presenter: {Name}PresenterViewInterface {
 
-    func onViewAppear() {
-
-    }
-
 }
 
 extension {Name}Presenter: {Name}PresenterRouterInterface {

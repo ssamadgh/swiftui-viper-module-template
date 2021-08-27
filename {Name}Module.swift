@@ -27,7 +27,7 @@ protocol {Name}PresenterInteractorInterface: PresenterInteractorInterface {
 }
 
 protocol {Name}PresenterViewInterface: PresenterViewInterface {
-    func onViewAppear()
+
 }
 
 // MARK: - interactor

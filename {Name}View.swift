@@ -13,7 +13,6 @@ struct {Name}View<Presenter: {Name}PresenterViewInterface>: View, ViewInterface 
 	
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .onAppear(perform: presenter.onViewAppear)
     }
 	
 }
