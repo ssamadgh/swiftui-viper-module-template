@@ -27,7 +27,7 @@ protocol {Name}PresenterInteractorInterface: PresenterInteractorInterface {
 }
 
 protocol {Name}PresenterViewInterface: PresenterViewInterface {
-
+    func start()
 }
 
 // MARK: - interactor
@@ -60,6 +60,8 @@ final class {Name}Module: ModuleInterface {
         self.assemble(presenter: presenter, router: router, interactor: interactor)
         
         let view = View(presenter: presenter)
+        
+        presenter.start()
         
         return view
     }
