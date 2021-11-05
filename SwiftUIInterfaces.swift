@@ -6,7 +6,6 @@
 //  Copyright © 2019. Tibor Bödecs. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
 
 // MARK: - interfaces

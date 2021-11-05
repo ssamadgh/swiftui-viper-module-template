@@ -4,44 +4,7 @@
 //
 //  Created by {author} on {date}.
 //
-import Foundation
-import UIKit
 import SwiftUI
-import Combine
-
-
-// MARK: - router
-
-protocol {Name}RouterInterface: RouterPresenterInterface {
-
-}
-
-// MARK: - presenter
-
-protocol {Name}PresenterRouterInterface: PresenterRouterInterface {
-
-}
-
-protocol {Name}PresenterInteractorInterface: PresenterInteractorInterface {
-
-}
-
-protocol {Name}PresenterViewInterface: PresenterViewInterface {
-    func start()
-}
-
-// MARK: - interactor
-
-protocol {Name}InteractorInterface: InteractorPresenterInterface {
-
-}
-
-// MARK: - view
-
-protocol {Name}ViewInterface: ViewPresenterInterface {
-
-}
-
 
 // MARK: - module builder
 

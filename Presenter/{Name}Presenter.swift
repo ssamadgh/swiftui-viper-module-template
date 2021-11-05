@@ -5,9 +5,7 @@
 //  Created by {author} on {date}.
 //
 
-import Foundation
 import SwiftUI
-import Combine
 
 final class {Name}Presenter<Router: {Name}RouterInterface>: PresenterInterface {
 
