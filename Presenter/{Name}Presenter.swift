@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 final class {Name}Presenter<Router: {Name}RouterInterface>: PresenterInterface {
 

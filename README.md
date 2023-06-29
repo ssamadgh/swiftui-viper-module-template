@@ -4,7 +4,7 @@ SwiftUI **VIPER** template for iOS projects.
 
 ## About
 
-This is a template to generate VIPER modules for SwiftUI, So makes easy to develop a SwiftUI project based on VIPER architecture.
+This is a template to generate VIPER modules for SwiftUI, So makes it easy to develop a SwiftUI project based on VIPER architecture.
 
 This template is developed based on [VIPER Module Template](https://github.com/ssamadgh/viper-module-template) for **UIKit**.
 
